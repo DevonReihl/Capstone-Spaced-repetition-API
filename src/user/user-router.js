@@ -14,7 +14,7 @@ userRouter
         return res.status(400).json({
           error: `Missing '${field}' in request body`
         })
-
+        
     try {
       const passwordError = UserService.validatePassword(password)
 

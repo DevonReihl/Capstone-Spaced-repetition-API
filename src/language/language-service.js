@@ -28,6 +28,17 @@ const LanguageService = {
       )
       .where({ language_id })
   },
+
+  getWordHead(db, language_id) {
+    let response = db.raw(
+      'select * from word join language on language.head = word.id where word.language_id = ?',
+      language_id
+    )
+    .then(rowsAffected => {
+      return rowsAffected.rows[0];
+    })
+    return response
+  },
 }
 
 module.exports = LanguageService
