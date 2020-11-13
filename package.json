@@ -23,7 +23,8 @@
     "jsonwebtoken": "^8.5.0",
     "knex": "^0.21.12",
     "morgan": "^1.9.1",
-    "pg": "^8.4.2"
+    "pg": "^8.4.2",
+    "xss": "^1.0.8"
   },
   "devDependencies": {
     "chai": "^4.2.0",
