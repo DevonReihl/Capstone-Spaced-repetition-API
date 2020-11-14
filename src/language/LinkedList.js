@@ -20,7 +20,6 @@ class _Node {
       let currentNode = this.head;
       if (currentNode == null) {
         this.insertFirst(value);
-        console.log("INSERT LAST WORKING",this.head, this.next)
         return;
       }
   
@@ -68,7 +67,7 @@ class _Node {
 }
       
     
-    moveHeadBy(level) {  //what is level??
+    moveHeadBy(level) { 
       let head = this.head;
       this.head = this.head.next;
       this.insertAt(level, head.value)
@@ -95,20 +94,7 @@ class _Node {
       }
       return arr.length;
      } 
-    // find(value) {
-    //   let currentNode = this.head;
-    //   if (currentNode == null) {
-    //     console.error(`The list is empty!`);
-    //   }
-  
-    //   while (currentNode.next != null) {
-    //     if (currentNode.value === value) {
-    //       return currentNode;
-    //     }
-    //     currentNode = currentNode.next;
-    //   }
-    //   console.error(`Node with ${value} does not exist!`);
-    // }
+
   }
   
   module.exports = { LinkedList }; 
