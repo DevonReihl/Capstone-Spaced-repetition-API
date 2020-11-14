@@ -20,6 +20,7 @@
     "dotenv": "^6.2.0",
     "express": "^4.16.4",
     "helmet": "^3.15.0",
+    "heroku": "^7.47.2",
     "jsonwebtoken": "^8.5.0",
     "knex": "^0.21.12",
     "morgan": "^1.9.1",
