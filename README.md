@@ -1,7 +1,9 @@
 # Spaced repetition API!
 
 # Aisance App
+https://github.com/DevonReihl/Capstone-spaced-repetition-client
 
+https://github.com/DevonReihl/Capstone-Spaced-repetition-API
 
 ## Getting Started
 
